@@ -1,3 +1,14 @@
 <resources>
-    <string name="app_name">FoodApp</string>
+    <string name="app_name">Food App</string>
+    <string name="text_name">Hai Gigih !</string>
+    <string name="text_greeting">Mau makan apa hari ini ?</string>
+    <string name="discount_description">Pesan makanan lewat aplikasi dan dapatkan diskonmu</string>
+    <string name="diskon_tittle">Diskon 30%</string>
+    <string name="tittle_rice">Nasi</string>
+    <string name="tittle_mie">Mie</string>
+    <string name="tittle_snack">Snack</string>
+    <string name="tittle_drink">Minuman</string>
+    <string name="tittle_ice_cream">Es Krim</string>
+    <string name="list_menu">List Menu Makanan</string>
+    <string name="category_tittle">Category</string>
 </resources>
