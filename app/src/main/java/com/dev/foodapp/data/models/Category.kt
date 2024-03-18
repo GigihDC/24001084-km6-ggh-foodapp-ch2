@@ -1,12 +1,11 @@
-package com.dev.foodapp.models
+package com.dev.foodapp.data.models
 
 import androidx.annotation.DrawableRes
 import java.util.UUID
 
-data class Catalog(
+data class Category(
     var id: String = UUID.randomUUID().toString(),
     @DrawableRes
     var image: Int,
-    var price: Double,
     var name: String
 )
