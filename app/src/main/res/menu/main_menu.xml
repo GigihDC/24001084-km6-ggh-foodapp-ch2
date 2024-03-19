@@ -5,7 +5,7 @@
         android:icon="@drawable/ic_home"
         android:title="@string/menu_home"/>
     <item
-        android:id="@+id/navigation_checkout"
+        android:id="@+id/navigation_cart"
         android:icon="@drawable/ic_cart"
         android:title="@string/menu_keranjang"/>
     <item

@@ -1,7 +1,6 @@
 package com.dev.foodapp.data.datasource
 
 import com.dev.foodapp.R
-import com.dev.foodapp.data.models.Catalog
 import com.dev.foodapp.data.models.Category
 
 interface FoodCategoryDataSource {
