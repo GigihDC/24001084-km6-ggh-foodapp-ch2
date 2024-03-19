@@ -1,10 +1,10 @@
-package com.dev.foodapp.adapters
+package com.dev.foodapp.adapters.category
 
 import android.view.LayoutInflater
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
 import com.dev.foodapp.databinding.ItemCategoryBinding
-import com.dev.foodapp.models.Category
+import com.dev.foodapp.data.models.Category
 
 class CategoryAdapter : RecyclerView.Adapter<CategoryAdapter.CategoryViewHolder>() {
 
