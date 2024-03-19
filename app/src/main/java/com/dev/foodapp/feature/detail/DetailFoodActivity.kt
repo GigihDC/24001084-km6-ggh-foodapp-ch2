@@ -2,7 +2,6 @@ package com.dev.foodapp.feature.detail
 
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
-import com.dev.foodapp.R
 import com.dev.foodapp.data.models.Catalog
 import com.dev.foodapp.databinding.ActivityDetailFoodBinding
 import com.dev.foodapp.utils.toIndonesianFormat

@@ -5,6 +5,8 @@ import androidx.appcompat.app.AppCompatActivity
 import androidx.fragment.app.Fragment
 import com.dev.foodapp.R
 import com.dev.foodapp.databinding.ActivityMainBinding
+import com.dev.foodapp.feature.menu.cart.CartFragment
+import com.dev.foodapp.feature.menu.history.HistoryFragment
 import com.dev.foodapp.feature.menu.home.HomeFragment
 import com.dev.foodapp.feature.menu.profile.ProfileFragment
 
@@ -23,8 +25,8 @@ class MainActivity : AppCompatActivity() {
         binding.bnvMenu.setOnItemSelectedListener { item ->
             when (item.getItemId()) {
                 R.id.navigation_home -> replaceFragment(HomeFragment())
-                R.id.navigation_checkout -> replaceFragment(Fragment())
-                R.id.navigation_history -> replaceFragment(Fragment())
+                R.id.navigation_cart -> replaceFragment(CartFragment())
+                R.id.navigation_history -> replaceFragment(HistoryFragment())
                 R.id.navigation_profile -> replaceFragment(ProfileFragment())
             }
             true
