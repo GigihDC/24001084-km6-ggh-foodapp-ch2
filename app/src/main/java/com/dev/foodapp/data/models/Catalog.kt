@@ -1,5 +1,6 @@
 package com.dev.foodapp.data.models
 
+import android.os.ParcelFileDescriptor
 import android.os.Parcelable
 import androidx.annotation.DrawableRes
 import kotlinx.parcelize.Parcelize
@@ -11,5 +12,6 @@ data class Catalog(
     @DrawableRes
     var image: Int,
     var price: Double,
-    var name: String
+    var name: String,
+    var description: String
 ) : Parcelable
