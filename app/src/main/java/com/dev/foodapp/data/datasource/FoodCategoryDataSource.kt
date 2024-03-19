@@ -7,7 +7,7 @@ interface FoodCategoryDataSource {
     fun getFoodCategory(): List<Category>
 }
 
-class FoodCategoryDataSourceImpl() : FoodCategoryDataSource {
+class FoodCategoryDataSourceImpl : FoodCategoryDataSource {
     override fun getFoodCategory(): List<Category> {
         return mutableListOf(
             Category(image = R.drawable.img_rice, name = "Nasi"),
